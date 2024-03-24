@@ -2,6 +2,14 @@
 
 {% block content %}
 
-<p> Teste </p>
+<h2> Autores: </h2>
+
+{% if autores.count > 0 %}
+    {% for author in autores %}
+    <a href="{% url 'author_projects' pk=author.pk %}"> <h3> {{author.name}} </h3> </a>
+    {% endfor %}
+{% else %}
+    <h3> Nenhum Autor Cadastrado </h3>
+{% endif %}
 
 {% endblock %}
