@@ -1,4 +1,5 @@
 {% load static %}
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -9,12 +10,18 @@
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
 
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+
         <title> Site → LMW </title>
     </head>
 
     <body>
-        <div class="Cabecalho">
-
+        <div class="cabecalho">
+            <h1> <a href="/"> Linguagens de Marcacao para Web </a> </h1>
+            <img src="{% static 'img/logo.png' %}" width="200">
+            <a href="https://github.com/chevitaresebruno/BSI_IFES_SERRA_LMW/tree/main" target="_blank"> <img src="{% static 'img/github.png' %}" width="80"> </a>
         </div>
 
         <div class="Corpo">
@@ -25,7 +32,7 @@
     </body>
 
     <footer>
-        <a href=""> Autor: Bruno Chevitarese </a>
+        <a href="https://github.com/chevitaresebruno" target="_blank"> Desenvolvedor: Bruno Chevitarese </a>
     </footer>
 
 </html>
