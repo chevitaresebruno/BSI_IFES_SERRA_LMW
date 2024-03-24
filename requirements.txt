@@ -1,0 +1,9 @@
+Python 3.13
+
+Package  Version
+-------- -------
+asgiref  3.8.1
+Django   5.0.3
+pip      24.0
+sqlparse 0.4.4
+tzdata   2024.1
