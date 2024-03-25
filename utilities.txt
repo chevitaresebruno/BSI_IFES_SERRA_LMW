@@ -1,0 +1,4 @@
+runserver
+createsuperuser
+makemigrations blog
+migrate blog
