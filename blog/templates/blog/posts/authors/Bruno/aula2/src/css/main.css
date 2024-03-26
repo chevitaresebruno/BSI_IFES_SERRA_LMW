@@ -1,0 +1,35 @@
+.header {
+    text-align: center;
+    font-family: lobster;
+}
+
+.pagina {
+    background-color: burlywood;
+    width: 70%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.menu {
+    text-align: center;
+}
+
+.item {
+    text-align: left;
+    width: 30%;
+    margin-left: 20%;
+}
+
+.preco {
+    text-align: right;
+    width: 30%;
+    margin-right: 20%;
+}
+
+.artigo p {
+    display: inline-block;
+}
+
+body {
+    background-image: url(../../img/cafe.jpg);
+}
