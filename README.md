@@ -19,6 +19,12 @@ Você pode baixar esse repositório e executar os comandos do Django para acessa
 ## Sobre o Trabalho Final
 A disciplina contém um trabalho final. Nele, temos que desenvolver uma aplicação web simples (sem o uso de JavaScript) e disponibilizar um link para o professor já citado. No meu caso, farei uma aplicação em Django que gerencia um banco de dados. Como o Django é particurlamente pesado e esse trabalho final será desenvolvido em Django com um outro banco de dados, criei um repositório próprio para esse ele, o qual pode ser acessado pelo seguinte link: https://github.com/chevitaresebruno/BSI_IFES_SERRA_LMW_TRABALHO-FINAL
 
+# Comandos úteis
+    runserver -> inicia o servidor
+    makemigrations blog -> adiciona novas estruturas de tabelas no bd
+    migrate blog -> executa as alteracoes do passo anterior
+    createsuperuser -> cria um usuario admin (execute esse depois do segundo e terceiro comando)
+    
 # TODO
 Autenticação de Usuário
 

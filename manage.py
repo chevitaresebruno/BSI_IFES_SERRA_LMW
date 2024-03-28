@@ -1,5 +1,14 @@
 #!/usr/bin/env python
 """Django's command-line utility for administrative tasks."""
+
+"""
+Comandos úteis:
+    runserver -> inicia o servidor
+    makemigrations blog -> adiciona novas estruturas de tabelas no bd
+    migrate blog -> executa as alteracoes do passo anterior
+    createsuperuser -> cria um usuario admin (execute esse depois do segundo e terceiro comando)
+"""
+
 import os
 import sys
 
