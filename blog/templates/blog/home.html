@@ -6,7 +6,7 @@
 
 {% if autores.count > 0 %}
     {% for author in autores %}
-    <a href="{% url 'author_projects' pk=author.pk %}"> <h3> {{author.name}} </h3> </a>
+    <a href="{% url 'author_projects' pk=author.pk author_name=author.name  %}"> <h3> {{author.name}} </h3> </a>
     {% endfor %}
 {% else %}
     <h3> Nenhum Autor Cadastrado </h3>

@@ -3,9 +3,9 @@
 {% block content %}
     {% if posts.count > 0 %}
         {% for post in posts %}
-            
-            <h2> {{post.title}} </h2>
-
+            <a href="{% url 'author_web_site' pk=p_k author_name=authorName project_name=post.title %}">
+            <h2> {{post.title}} {{authorName}} {{p_k}} </h2>
+            </a>
         {% endfor %}
     {% else %}
         <h2> Este autor ainda não possui publicações</h2>
