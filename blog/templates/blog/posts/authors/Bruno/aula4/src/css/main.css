@@ -1,0 +1,45 @@
+.frame {
+    margin: 80px auto;
+
+    width:600px;
+    height:500px;
+    
+    border: 50px solid black;
+    border-radius: 20px;
+
+    padding: 20px;
+
+    overflow: hidden;
+}
+
+.canvas {
+    width:560px;
+    height:460px;
+    
+    background-color:aquamarine;
+
+    padding-top: 20px;
+
+    overflow: hidden;
+}
+
+.um {    
+    margin: auto;
+    margin-bottom: 20px;
+
+    width: 200px;
+    height: 200px;
+
+    background-color: antiquewhite;
+
+    overflow: hidden;
+}
+
+.dois{
+    margin: auto;
+
+    width: 200px;
+    height: 200px;
+
+    background-color: blueviolet;
+}
